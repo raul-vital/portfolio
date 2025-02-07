@@ -19,6 +19,66 @@
             </ul>
         </div>
     </nav>
+    <nav id="ham-nav">
+        <div class="logo">Raul Vital</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()" >Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section-pic-container" >
+            <img src="/assets/PROFILE PICTURE.jpeg"alt="profile picture" />
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Raul Vital</h1>
+            <p class="section-text-p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('/assets/RaulVital Resume.pdf')">
+                  Download Resume
+                </button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                  Contact Info
+                </button>
+            </div>
+            <div id="socials">
+                <img 
+                   src="./assets/linkedin.png"
+                   alt="My LinkedIn Profile"
+                   class="icon"
+                   onclick="location.href='https://www.linkedin.com/in/raul-vital/'"
+                   />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img 
+                   src=""
+                   alt="Profile picture"
+                   class="about-pic"
+                   />
+                   <h3>Experience</h3>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
