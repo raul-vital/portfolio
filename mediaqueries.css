@@ -13,10 +13,10 @@
   }
   
   @media screen and (max-width: 1200px) {
-    #desktop-nav {
+    #navbar {
       display: none;
     }
-    #hamburger-nav {
+    #ham-nav {
       display: flex;
     }
     #experience,
