@@ -179,8 +179,13 @@ section{
 
 }
 .title{
-    font-size: 3rem;
+    font-size: 3em;
     text-align:center;
+}
+.title-1{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #socials{
@@ -268,8 +273,7 @@ section{
   }
   
   .details-container {
-    margin: -5;
-    padding: 0.2rem;
+    padding: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -287,5 +291,43 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+  }
+  
+  /* experience */
+
+  #experience {
+    position: relative;
+  }
+  .experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+  
+  article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+  
+  article .icon {
+    cursor: default;
   }
   
