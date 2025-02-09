@@ -397,3 +397,6 @@ section{
   footer p{
     text-align: center;
   }
+  #contact{
+    position: relative;
+  }

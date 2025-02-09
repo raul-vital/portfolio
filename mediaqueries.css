@@ -48,6 +48,9 @@
     .btn-color-2 {
         color: black;
     }
+    .p-mac{
+        display: none;
+    }
   }
   
   @media screen and (max-width: 600px) {
